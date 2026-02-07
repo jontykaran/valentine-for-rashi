@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💝 For You, Rashi 💝</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-bg" id="heartsBg"></div>
+
+    <!-- ============ LANDING / PROPOSAL SECTION ============ -->
+    <section class="section landing" id="landing">
+        <div class="envelope-container" id="envelopeContainer">
+            <div class="envelope" id="envelope">
+                <div class="envelope-flap"></div>
+                <div class="envelope-body">
+                    <div class="letter">
+                        <p>Dear Rashi,</p>
+                        <p>I made this little corner of the internet just for you...</p>
+                        <p class="letter-heart">💌</p>
+                    </div>
+                </div>
+            </div>
+            <p class="tap-hint">Click the envelope 💌</p>
+        </div>
+
+        <div class="proposal-content hidden" id="proposalContent">
+            <h1 class="title-main">Hey Rashi 💕</h1>
+            <p class="subtitle">Will you be my Valentine?</p>
+            <div class="proposal-buttons">
+                <button class="btn btn-yes" id="btnYes">Yes! 💖</button>
+                <button class="btn btn-no" id="btnNo">No 😢</button>
+            </div>
+            <div class="accepted-message hidden" id="acceptedMessage">
+                <h2>Yayyy! 🎉💕</h2>
+                <p>I knew you'd say yes! Scroll down for your surprise...</p>
+                <div class="scroll-arrow" onclick="document.getElementById('timeline').scrollIntoView({behavior:'smooth'})">
+                    <span>↓</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ OUR TIMELINE ============ -->
+    <section class="section timeline-section hidden-section" id="timeline">
+        <h2 class="section-title">Our Story 💫</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-card">
+                    <div class="timeline-img">
+                        <img src="photos/photo1.jpg" alt="Us" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22><rect fill=%22%23FFD6E0%22 width=%22400%22 height=%22300%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>📸</text><text x=%2250%%22 y=%2265%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22 fill=%22%23c44569%22>Add photo1.jpg</text></svg>'">
+                    </div>
+                    <h3>The Day We Met 🌟</h3>
+                    <p class="timeline-date">A day I'll never forget</p>
+                    <p>That moment when I first saw you, I knew something magical was about to begin...</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-card">
+                    <div class="timeline-img">
+                        <img src="photos/photo2.jpg" alt="Us" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22><rect fill=%22%23E8D5F5%22 width=%22400%22 height=%22300%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>📸</text><text x=%2250%%22 y=%2265%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22 fill=%22%23c44569%22>Add photo2.jpg</text></svg>'">
+                    </div>
+                    <h3>Our First Date 🌹</h3>
+                    <p class="timeline-date">Butterflies everywhere</p>
+                    <p>The nervous laughs, the stolen glances... every second was perfect.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-card">
+                    <div class="timeline-img">
+                        <img src="photos/photo3.jpg" alt="Us" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22><rect fill=%22%23D5F5E3%22 width=%22400%22 height=%22300%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>📸</text><text x=%2250%%22 y=%2265%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22 fill=%22%23c44569%22>Add photo3.jpg</text></svg>'">
+                    </div>
+                    <h3>Adventures Together 🌄</h3>
+                    <p class="timeline-date">Making memories</p>
+                    <p>Every adventure is better with you by my side. You make the ordinary extraordinary.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-card">
+                    <div class="timeline-img">
+                        <img src="photos/photo4.jpg" alt="Us" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 300%22><rect fill=%22%23FFF3CD%22 width=%22400%22 height=%22300%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>📸</text><text x=%2250%%22 y=%2265%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22 fill=%22%23c44569%22>Add photo4.jpg</text></svg>'">
+                    </div>
+                    <h3>Falling Deeper 💕</h3>
+                    <p class="timeline-date">Every day with you</p>
+                    <p>With every passing day, I fall more in love with you, Rashi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ REASONS I LOVE YOU ============ -->
+    <section class="section reasons-section hidden-section" id="reasons">
+        <h2 class="section-title">Reasons I Love You 💝</h2>
+        <div class="reasons-grid">
+            <div class="reason-card" style="--delay: 0s">
+                <div class="reason-icon">😊</div>
+                <h3>Your Smile</h3>
+                <p>Your smile lights up my darkest days. It's the most beautiful thing I've ever seen.</p>
+            </div>
+            <div class="reason-card" style="--delay: 0.1s">
+                <div class="reason-icon">💪</div>
+                <h3>Your Strength</h3>
+                <p>The way you handle everything with grace and courage inspires me every single day.</p>
+            </div>
+            <div class="reason-card" style="--delay: 0.2s">
+                <div class="reason-icon">😂</div>
+                <h3>Your Laugh</h3>
+                <p>That infectious laugh of yours is my favorite sound in the entire universe.</p>
+            </div>
+            <div class="reason-card" style="--delay: 0.3s">
+                <div class="reason-icon">🤗</div>
+                <h3>Your Kindness</h3>
+                <p>The way you care about everyone around you makes the world a better place.</p>
+            </div>
+            <div class="reason-card" style="--delay: 0.4s">
+                <div class="reason-icon">✨</div>
+                <h3>Your Soul</h3>
+                <p>You have the most beautiful soul. Being with you feels like home.</p>
+            </div>
+            <div class="reason-card" style="--delay: 0.5s">
+                <div class="reason-icon">💖</div>
+                <h3>Everything</h3>
+                <p>I love every single thing about you. You are my person, Rashi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PHOTO GALLERY ============ -->
+    <section class="section gallery-section hidden-section" id="gallery">
+        <h2 class="section-title">Our Moments 📷</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item large">
+                <img src="photos/gallery1.jpg" alt="Us" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22><rect fill=%22%23FFD6E0%22 width=%22600%22 height=%22400%22 rx=%2212%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2248%22>💑</text><text x=%2250%%22 y=%2262%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22 fill=%22%23c44569%22>gallery1.jpg</text></svg>'">
+                <div class="gallery-overlay"><span>Us ❤️</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/gallery2.jpg" alt="Memory" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22><rect fill=%22%23E8D5F5%22 width=%22300%22 height=%22300%22 rx=%2212%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>🌸</text><text x=%2250%%22 y=%2262%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2214%22 fill=%22%23c44569%22>gallery2.jpg</text></svg>'">
+                <div class="gallery-overlay"><span>Memories 🌸</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/gallery3.jpg" alt="Fun" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22><rect fill=%22%23D5F5E3%22 width=%22300%22 height=%22300%22 rx=%2212%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>🎉</text><text x=%2250%%22 y=%2262%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2214%22 fill=%22%23c44569%22>gallery3.jpg</text></svg>'">
+                <div class="gallery-overlay"><span>Fun Times 🎉</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/gallery4.jpg" alt="Together" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22><rect fill=%22%23FFF3CD%22 width=%22300%22 height=%22300%22 rx=%2212%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>🌅</text><text x=%2250%%22 y=%2262%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2214%22 fill=%22%23c44569%22>gallery4.jpg</text></svg>'">
+                <div class="gallery-overlay"><span>Together 🌅</span></div>
+            </div>
+            <div class="gallery-item large">
+                <img src="photos/gallery5.jpg" alt="Love" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 600 400%22><rect fill=%22%23FADADD%22 width=%22600%22 height=%22400%22 rx=%2212%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2248%22>💕</text><text x=%2250%%22 y=%2262%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22 fill=%22%23c44569%22>gallery5.jpg</text></svg>'">
+                <div class="gallery-overlay"><span>Love 💕</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="photos/gallery6.jpg" alt="Forever" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22><rect fill=%22%23FFE0E6%22 width=%22300%22 height=%22300%22 rx=%2212%22/><text x=%2250%%22 y=%2245%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2240%22>🥰</text><text x=%2250%%22 y=%2262%%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2214%22 fill=%22%23c44569%22>gallery6.jpg</text></svg>'">
+                <div class="gallery-overlay"><span>Forever 🥰</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ LOVE LETTER ============ -->
+    <section class="section letter-section hidden-section" id="loveLetter">
+        <h2 class="section-title">A Letter For You 💌</h2>
+        <div class="love-letter-card">
+            <div class="letter-content" id="letterContent">
+                <p class="letter-greeting">My Dearest Rashi,</p>
+                <p>From the moment you walked into my life, everything changed. Colors became brighter, music sounded sweeter, and every day became an adventure worth living.</p>
+                <p>You're not just my girlfriend — you're my best friend, my confidante, my biggest cheerleader, and my favourite person in the whole world.</p>
+                <p>Thank you for being you. Thank you for loving me. Thank you for every laugh, every hug, every moment we've shared together.</p>
+                <p>I promise to love you a little more every day, to be there through every storm, and to never stop making you smile.</p>
+                <p class="letter-closing">Forever & Always Yours,<br>With all my love 💕</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ COUNTDOWN / FOREVER ============ -->
+    <section class="section countdown-section hidden-section" id="countdown">
+        <div class="countdown-container">
+            <h2 class="section-title">Time We've Been Together 💑</h2>
+            <p class="countdown-subtitle">And counting every beautiful second...</p>
+            <div class="countdown-grid">
+                <div class="countdown-box">
+                    <span class="countdown-num" id="countDays">000</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-box">
+                    <span class="countdown-num" id="countHours">00</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-box">
+                    <span class="countdown-num" id="countMins">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-box">
+                    <span class="countdown-num" id="countSecs">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+            <p class="countdown-note">✏️ <em>Set your real date in script.js!</em></p>
+        </div>
+    </section>
+
+    <!-- ============ FINAL MESSAGE ============ -->
+    <section class="section final-section hidden-section" id="final">
+        <div class="final-content">
+            <div class="big-heart" id="bigHeart">❤️</div>
+            <h2>I Love You, Rashi</h2>
+            <p>Today, tomorrow, and every day after that.</p>
+            <p class="final-emoji">🥰💕✨💖🌹</p>
+            <button class="btn btn-replay" onclick="location.reload()">Replay 💫</button>
+        </div>
+    </section>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
