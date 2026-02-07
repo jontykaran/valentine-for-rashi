@@ -3,7 +3,6 @@
 // ============================================================
 
 // ---------- CONFIG ----------
-// 👇 Change this to the real date you two got together!
 const RELATIONSHIP_START = new Date('2025-02-15T00:00:00');
 
 // ---------- DOM REFS ----------
